@@ -83,14 +83,14 @@
 // Stack: "Yığdığın hər şey ardıcıl olaraq silinir."
 // Heap: "Daha böyük şeylər saxlanır, amma hər şey sərbəst şəkildə yerləşir."
 
-function existsAndTruthy(obj, propertyName) {
+// function existsAndTruthy(obj, propertyName) {
 
-  console.log(obj[propertyName] ? true : false);
+//   console.log(obj[propertyName] ? true : false);
 
 
 
-}
+// }
 
-existsAndTruthy({ a: 1, b: 2, c: 3 }, 'b') // true
-existsAndTruthy({ x: 'a', y: null, z: 'c' }, 'y') // false
-existsAndTruthy({ x: 'a', b: 'b', z: undefined }, 'z') // false 
+// existsAndTruthy({ a: 1, b: 2, c: 3 }, 'b') // true
+// existsAndTruthy({ x: 'a', y: null, z: 'c' }, 'y') // false
+// existsAndTruthy({ x: 'a', b: 'b', z: undefined }, 'z') // false 
